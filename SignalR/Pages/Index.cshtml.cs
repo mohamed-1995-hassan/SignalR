@@ -11,6 +11,8 @@ namespace SignalR.Pages
     public class IndexModel : PageModel
     {
         private readonly ILogger<IndexModel> _logger;
+        int i = 0;
+       
 
         public IndexModel(ILogger<IndexModel> logger)
         {
@@ -19,7 +21,7 @@ namespace SignalR.Pages
 
         public void OnGet()
         {
-
+            int y = 8;
         }
     }
 }
